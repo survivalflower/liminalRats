@@ -3,3 +3,35 @@ body {
 background-image: url('CLOUD07J.GIF');
 
 }
+
+#floor {
+
+background-image: url('grass.png');
+height: 200px;
+width: 100%;
+position: absolute;
+bottom: 0;
+left: 0;
+
+}
+
+#rat {
+
+z-index: 1;
+position: absolute;
+bottom: 15%;
+left: 50%;
+
+}
+
+
+
+#smile {
+
+z-index: 2;
+height: 250px;
+position: absolute;
+bottom: 70%;
+left: 0;
+
+}
