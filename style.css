@@ -94,5 +94,18 @@ bottom: 8%;
 left: 48%;
 }
 
+#apple {
+z-index: 3;
+height: 100px;
+position: absolute;
+bottom: 30%;
+left: 68%;
+}
 
-
+#orangejuice {
+z-index: 3;
+height: 100px;
+position: absolute;
+bottom: 33%;
+left: 63%;
+}
