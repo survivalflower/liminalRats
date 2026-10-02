@@ -77,9 +77,22 @@ bottom: 64%;
 left: 50%;
 }
 
+#chair {
+z-index: 1;
+height: 400px;
+position: absolute;
+bottom: 8%;
+left: 74%;
+}
 
-
-
+#chairFlipped {
+z-index: 1;
+transform: scaleX(-1);
+height: 400px;
+position: absolute;
+bottom: 8%;
+left: 48%;
+}
 
 
 
