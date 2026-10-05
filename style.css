@@ -51,7 +51,7 @@ left: 60%;
 
 #frame1 {
 z-index: 3; 
-height: 200px;
+height: 250px;
 position: absolute;
 bottom: 70%;
 left: 65%;
@@ -61,7 +61,7 @@ left: 65%;
 
 #frame2 {
 z-index: 4;
-height: 150px;
+height: 200px;
 position: absolute;
 bottom: 50%;
 left: 80%;
@@ -71,7 +71,7 @@ left: 80%;
 
 #frame3 {
 z-index: 5;
-height: 200px;
+height: 250px;
 position: absolute;
 bottom: 64%;
 left: 50%;
@@ -108,4 +108,13 @@ height: 100px;
 position: absolute;
 bottom: 33%;
 left: 63%;
+}
+
+#butterflies {
+z-index: 3;
+height: 500px;
+position: absolute;
+bottom: 50%;
+left: 30%;
+transform: rotate(45deg);
 }
