@@ -1,17 +1,23 @@
 body {
 background-image: url(cardboard.png);
-background-color: #9b2a9b;
+background-color: #004cff;
 background-color: linear-gradient(90deg, rgb(49, 1, 127) 0%, rgb(226, 122, 255) 50%, rgb(237, 83, 186) 100%);
+color: white;
+font-family: robloxFont;
 }
 
 
 
 header, main, aside, section {
-border: solid rgb(36, 0, 53) 4px;
+border: solid rgb(244, 244, 246) 4px;
 padding: 40px;
+
 }
 
-
+@font-face {
+    font-family: robloxFont;
+    src: url(Cartoon\ Fun.ttf);
+}
 
 main {
 display: flex;
@@ -25,16 +31,36 @@ border: 0;
 
 aside {
 width: 30%;
+
 }
 
+li {
+    font-family: robloxFont;
+}
 
+header {
+    font-family: robloxFont;
+}
 
 section {
 width: 70%;
 }
 
+img {
+
+width: 80%;
+
+}
+
+a {
+font-size: 60px;
+color: greenyellow;
+
+}
+
+
 * {
 
-cursor: url('');
+cursor: url('ratSneaky.png');
 
 }
